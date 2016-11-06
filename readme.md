@@ -6,7 +6,7 @@ _log error messages in red color to console_
 
 ## Project Status
 
-[![Build Status](https://travis-ci.org/ellerbrock/error-log-exit.svg?branch=master)](https://travis-ci.org/ellerbrock/node-developer-boilerplate) ![dependencies](https://david-dm.org/ellerbrock/error-log-exit.svg)
+[![Build Status](https://travis-ci.org/ellerbrock/error-log-exit.svg?branch=master)](https://travis-ci.org/ellerbrock/error-log-exit)
 
 ### install with npm
 
