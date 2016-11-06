@@ -78,7 +78,8 @@
     "env": {
       "production": {
         "presets": [
-          "babili"
+          "babili",
+          "es2015"
         ]
       }
     }
@@ -126,5 +127,8 @@
     "standard-changelog": "0.0.1",
     "standard-version": "^3.0.0",
     "travis-lint": "1.0.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "6.18.0"
   }
 }
