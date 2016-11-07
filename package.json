@@ -1,6 +1,6 @@
 {
   "name": "error-log-exit",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "log error in red to console and exit with given value",
   "author": "Maik Ellerbrock",
   "main": "dist/index.js",
