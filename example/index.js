@@ -1,3 +1,4 @@
 import errorLogExit from '../src/index'
 
-errorLog('my errror message', 1)
+errorLogExit('my errror message', 1)
+

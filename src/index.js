@@ -2,10 +2,13 @@
 
 import 'colors'
 
-export default function errorLogExit (msg, code) {
-  const errMsg = msg || 'something went wrong ...'
-  const exitCode = code || 1
+export default errorLogExit
 
-  console.log(`Error: ${errMsg}`.bold.red)
-  process.exit(exitCode)
+function errorLogExit (msg, code) {
+  msg = msg || 'something went wrong ...'
+  code = code || 1
+
+  console.log(`❌  Error: ${msg}`.bold.red)
+  process.exit(code)
 }
+
